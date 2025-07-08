@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+/* MainForm */
+form {
+  border: 1px solid #f1f1f1;
+  margin: 1em auto;
+  padding: 1em;
+  width: 90%;
+  max-width: 758px;
+  text-align: left;
+}
+form input {
+  margin: 0.5em 0;
+  padding: 1em 0.5em;
+  width: 100%;
+}
+form input::placeholder {
+  color: #aaaaaa;
+}
+.submit {
+  background-color: coral;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 1px;
+  width: 100px;
+}
+
+/* FormDataInputs */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 758px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
